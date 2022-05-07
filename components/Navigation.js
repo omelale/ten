@@ -4,7 +4,10 @@ import Link from 'next/link'
 
 function Navigation() {
   return (
-      <ul>
+      <ul className="navbar">
+          <li className="nav nav-logo">
+            TEN
+          </li>
           <li>
               <Link href="/">
                   <a>Home</a>
