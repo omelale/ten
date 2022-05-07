@@ -2,7 +2,9 @@ import React from 'react'
 
 function contact() {
   return (
-    <div>Contact us</div>
+      <h1 className="text-3xl font-bold underline">
+          Hello world!
+      </h1>
   )
 }
 
