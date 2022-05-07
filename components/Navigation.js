@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 
 function Navigation() {
     return (
@@ -9,7 +8,7 @@ function Navigation() {
                 <div className="flex items-center justify-between">
                     <div className="">
                         <Link href="/">
-                            <a className="font-bold">TEN</a>
+                            <a className="font-bold text-3xl">TEN</a>
                         </Link>
                     </div>
                     <div className="menu hidden md:flex space-x-9">
