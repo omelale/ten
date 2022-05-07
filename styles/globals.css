@@ -19,11 +19,6 @@ a {
 * {
   box-sizing: border-box;
 }
-
-.navbar{display: flex; flex-direction:row; height:5vh;border-bottom:1px solid gray; align-items: center; margin:0;padding:10px,0;justify-content:flex-end}
-.navbar li {list-style-type: none; padding:10px; margin-right:2rem}
-.navbar :first-child {margin-right: auto; margin-left:2rem}
-.navbar .nav-logo{font-size:3rem; font-weight: bold;color:var(--blue)}
 .footer {
   display: flex;
   flex: 1;
