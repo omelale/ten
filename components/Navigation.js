@@ -8,17 +8,17 @@ function Navigation() {
           <li className="nav nav-logo">
             TEN
           </li>
-          <li>
+          <li ClassName="nav-link">
               <Link href="/">
                   <a>Home</a>
               </Link>
           </li>
-          <li>
+          <li ClassName="nav-link">
               <Link href="/about">
                   <a>About Us</a>
               </Link>
           </li>
-          <li>
+          <li ClassName="nav-link">
               <Link href="/contact">
                   <a>Contact</a>
               </Link>
