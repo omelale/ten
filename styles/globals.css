@@ -20,4 +20,18 @@ a {
 .navbar li {list-style-type: none; padding:10px; margin-right:2rem}
 .navbar :first-child {margin-right: auto; margin-left:2rem}
 .navbar .nav-logo{font-size:3rem; font-weight: bold;color:var(--blue)}
-.navbar .nav-link{flex-align:flex-end}
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
