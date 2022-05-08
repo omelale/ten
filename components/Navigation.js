@@ -2,6 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 
 function Navigation() {
+    const topotip = () => {
+        const btn = document.getElementById('menu-btn')
+        btn.classList.toggle('open')
+
+    }
     return (
         <>
             <nav className="navbar relative container mx-auto p-6">
@@ -28,7 +33,7 @@ function Navigation() {
                         </Link>
                     </div>
                     <div className="md:hidden block hamburger">
-                        <button className="btn border focus:outline-none">
+                        <button onClick={() => { topotip() }} className="btn border focus:outline-none" id="menu-btn">
                             <span className="hamburger-top"></span>
                             <span className="hamburger-middle"></span>
                             <span className="hamburger-bottom"></span>
