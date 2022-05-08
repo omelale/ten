@@ -2,10 +2,12 @@ import React from 'react'
 import Link from 'next/link'
 
 function Navigation() {
+    const btn = document.getElementById('menu-btn')
+    const nav = document.getElementById('menu')
     const topotip = () => {
-        const btn = document.getElementById('menu-btn')
         btn.classList.toggle('open')
-
+        nav.classList.toggle('flex')
+        nav.classList.toggle('hidden')
     }
     return (
         <>
@@ -32,13 +34,11 @@ function Navigation() {
                             <a className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Contact Us</a>
                         </Link>
                     </div>
-                    <div className="md:hidden block hamburger">
-                        <button onClick={() => { topotip() }} className="btn border focus:outline-none" id="menu-btn">
-                            <span className="hamburger-top"></span>
-                            <span className="hamburger-middle"></span>
-                            <span className="hamburger-bottom"></span>
-                        </button>
-                    </div>
+                    <button onClick={() => { topotip() }} className="md:hidden block hamburger p-3 focus:outline-none" id="menu-btn">
+                        <span className="hamburger-top"></span>
+                        <span className="hamburger-middle"></span>
+                        <span className="hamburger-bottom"></span>
+                    </button>
                 </div>
                 <div className="md:hidden">
                     <div
