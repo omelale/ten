@@ -2,12 +2,15 @@ import React from 'react'
 import Link from 'next/link'
 
 function Navigation() {
-    const btn = document.getElementById('menu-btn')
-    const nav = document.getElementById('menu')
+    
     const topotip = () => {
-        btn.classList.toggle('open')
-        nav.classList.toggle('flex')
-        nav.classList.toggle('hidden')
+        if (process.browser){
+            const btn = document.getElementById('menu-btn')
+            const nav = document.getElementById('menu')
+            btn.classList.toggle('open')
+            nav.classList.toggle('flex')
+            nav.classList.toggle('hidden')
+        }
     }
     return (
         <>
