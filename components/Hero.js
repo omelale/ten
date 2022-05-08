@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 function Hero() {
     return (
-        <section id="hero" className="container flex flex-col-reverse md:flex-row mx-auto items-center px-6 mt-10 space-between-2 md:space-between-0">
-            <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
-                <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-                    We help you build your presence online!
+        <section id="hero" className="container  mb-32 flex flex-col-reverse md:flex-row mx-auto items-center px-6 mt-10 space-between-2 md:space-between-0">
+            <div className="flex flex-col space-y-12 md:w-1/2">
+                <h1 className="max-w-lg text-4xl font-bold text-center md:text-5xl md:text-left">
+                    We help you build your online presence!
                 </h1>
                 <p className="text-base max-w-sm text-center md:text-left text-darkGrayishBlue">
                     From your website, to your app and social media presence,
@@ -19,7 +19,7 @@ function Hero() {
                     </Link>
                 </div>
             </div>
-            <div className="md:w-1/2 ">
+            <div className="w-1/2 xl:w-1/3 xl:mx-auto align-center mb-4">
                 {/* <Image
                             alt="Mountains"
                             src='/illustration-intro.svg'
@@ -27,7 +27,7 @@ function Hero() {
                             width={400}
                             height={400}
                         /> */}
-                <img src="/illustration-intro.svg" alt="" />
+                <img src="/online.svg" alt="" />
             </div>
         </section>
     )
