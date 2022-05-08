@@ -11,7 +11,7 @@ function Testimonials() {
                 </div>
                 <div className="flex flex-col md:flex-row mt-24 md:space-x-6">
                     <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
-                        <img src="avatar-anisha.png" alt="" className="w-16 -mt-14" />
+                        <img src="img/avatar-anisha.png" alt="" className="w-16 -mt-14" />
                         <h5 className="text-lg font-bold">Anisha Li</h5>
                         <p className="text-sm text-darkGrayishBlue">
                             “Manage has supercharged our team’s workflow. The ability to
@@ -20,7 +20,7 @@ function Testimonials() {
                         </p>
                     </div>
                     <div className="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 md:flex">
-                        <img src="avatar-ali.png" alt="" className="w-16 -mt-14" />
+                        <img src="img/avatar-ali.png" alt="" className="w-16 -mt-14" />
                         <h5 className="text-lg font-bold">Ali Bravo</h5>
                         <p className="text-sm text-darkGrayishBlue">
                             “We have been able to cancel so many other subscriptions since
@@ -29,7 +29,7 @@ function Testimonials() {
                         </p>
                     </div>
                     <div className="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 md:flex">
-                        <img src="avatar-richard.png" alt="" className="w-16 -mt-14" />
+                        <img src="img/avatar-richard.png" alt="" className="w-16 -mt-14" />
                         <h5 className="text-lg font-bold">Richard Watts</h5>
                         <p className="text-sm text-darkGrayishBlue">
                             “Manage has supercharged our team’s workflow. The ability to

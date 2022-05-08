@@ -27,7 +27,7 @@ function Hero() {
                             width={400}
                             height={400}
                         /> */}
-                <img src="/online.svg" alt="" />
+                <img src="/img/online.svg" alt="" />
             </div>
         </section>
     )
